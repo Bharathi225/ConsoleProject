@@ -30,7 +30,7 @@ public class Student {
 			String username = "root";
 			String password = "Bh@r@thi22";
 			//Class.forName("com.mysql.jdbc.Driver");
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydata", username, password);
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/school", username, password);
 
 		} 
 		catch (Exception obj) {
